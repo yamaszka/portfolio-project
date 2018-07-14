@@ -1,0 +1,82 @@
+body{
+    color: #2d3c49;
+}
+
+a{
+    color: #2d3c49;
+}
+
+.header{
+    width: 100%;
+    border-bottom: 2px solid #7d97ad;
+    min-height: 66px;
+}
+
+.header__logo{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width:30px;
+}
+
+.header__title_name{
+    float: right;
+    width:calc(100% - 20% - 20px);
+    text-align: right;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+.header__title{
+    float: right;
+    width:calc(100% - 20% - 20px);
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 0.9em;
+}
+
+
+
+
+.main_photo{
+    width:100%;
+    margin-top: 20px;
+}
+
+.big{
+    display: none;
+}
+
+.project_title{
+    color: #7d97ad;
+    font-size: 1.2em;
+}
+
+.project{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.project_name{
+    text-align: center;
+    margin: 3px;
+}
+
+.project_link {
+    display: block;
+    text-align: center;
+}
+
+
+
+img{
+    max-width:100%;
+}
+/* powoduje że elemnty staja się relatywne */
+
+.footer{
+    padding-top: 20px;
+    border-top: 2px solid #7d97ad;
+}

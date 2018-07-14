@@ -1,0 +1,62 @@
+.content{
+display: flex;
+flex-wrap: wrap;
+}
+
+@media screen and (min-width: 450px) {
+    .header__logo{
+        width:50px;
+    }
+
+    .header{
+        min-height: 86px;
+    }
+
+    .header__title_name{
+    font-size: 1.5em;
+    padding-right: 20px;
+    }
+
+    .header__title{
+        font-size: 1em;
+        padding-right: 20px;
+    }
+
+    .project_title{
+    font-size: 1.7em;
+    }
+
+    .big{
+        display: block;
+    }
+
+    .small{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 997px) {
+    body {
+        width:960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__logo{
+        width:70px;
+    }
+
+    .header{
+        min-height: 106px;
+    }
+
+    .header__title_name{
+    font-size: 2em;
+    padding-right: 20px;
+    }
+
+    .header__title{
+        font-size: 1em;
+        padding-right: 20px;
+    }
+}
